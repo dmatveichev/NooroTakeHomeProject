@@ -29,9 +29,22 @@
 		2B8A188F2D0C9D3B00C24FD0 /* NooroTakeHomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NooroTakeHomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		2B8A18E92D0CBD5C00C24FD0 /* Exceptions for "NooroTakeHome" folder in "NooroTakeHome" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 2B8A18732D0C9D3800C24FD0 /* NooroTakeHome */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		2B8A18762D0C9D3800C24FD0 /* NooroTakeHome */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				2B8A18E92D0CBD5C00C24FD0 /* Exceptions for "NooroTakeHome" folder in "NooroTakeHome" target */,
+			);
 			path = NooroTakeHome;
 			sourceTree = "<group>";
 		};
@@ -394,6 +407,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"NooroTakeHome/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NooroTakeHome/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "\"\"";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -431,6 +446,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"NooroTakeHome/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NooroTakeHome/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "\"\"";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
